@@ -83,8 +83,10 @@ class StorePost extends Component {
       <Fragment>
 
         <div className="form-add-post">
+          <br />
+          <br />
             <form className="container">
-            <h2 className="text-primary">JUAL DISINI</h2>
+            <h2 className="text-success">Jual hasil peternakan anda disini !</h2>
 
 
               <div className="mb-3">
@@ -113,7 +115,9 @@ class StorePost extends Component {
               <button type="button" onClick={this.handleButton} className="btn btn-success">
                 Posting Produk
               </button>
+              
             </form>
+            <br />
           </div>
         {this.state.get.map((get) => {
           return <GetStore key={get._id} data={get} hapus={this.handleHapus} edit={this.handleEdit} />;

@@ -5,6 +5,9 @@
     --bs-body-font-family: "Montserrat", sans-serif;
   }
   
+  .card-widt{
+    width: 18rem;
+  }
   html {
     scroll-behavior: smooth;
   }

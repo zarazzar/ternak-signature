@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.parallaxImage{
+  position: relative;
+  height:70vh;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  height: 70vh;
+  width: 100%;
+}
+
+.content span.img-txt{
+  padding: 1rem;
+  font-size: 5rem;
+  letter-spacing: 10px;
+  border-radius: 2.5%;
+  background: linear-gradient(rgb(255, 193, 9),rgb(255, 255, 255));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.bg-clr{
+  background-color: transparent;
+}
