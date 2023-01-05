@@ -38,3 +38,9 @@ code {
 .bg-clr{
   background-color: transparent;
 }
+
+@media screen and( min-width:360px ){
+  .col-hp{
+    width: 1%;
+  }
+}

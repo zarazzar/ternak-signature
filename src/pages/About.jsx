@@ -19,15 +19,15 @@ export default class About extends Component {
 
                         <div className="hero__content h-100 container-custom position-relative">
                             <div className="d-flex h-100 align-items-center hero__content-width">
-                            <div className="row text-white">
+                            <div className="row text-white   ">
                                 <h1 className="hero__heading fw-bold mb-4">Website ini dibuat menggunakan React.js</h1>
                                 <br />
                                 <p className='fw-bold'>Developer</p>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-sm-5 col-5">
                                   <Azzar/>
                                 </div>
 
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-sm-5 col-5">
                                   <Bebin/>
                                 </div>
                             </div>
