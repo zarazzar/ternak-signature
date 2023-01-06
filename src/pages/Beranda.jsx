@@ -6,7 +6,9 @@ export default class Beranda extends Component {
   render() {
     return (
         <div>
-          
+          <br />
+          <br />
+          <br />
           <CarouselSlider/>
           <div className='container'>
               
