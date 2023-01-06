@@ -8,7 +8,6 @@ export default class Beranda extends Component {
         <div>
           <br />
           <br />
-          <br />
           <CarouselSlider/>
           <div className='container'>
               
