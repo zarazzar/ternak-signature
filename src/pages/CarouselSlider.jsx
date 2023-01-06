@@ -8,7 +8,7 @@ import gambar5 from "./img/pict5.jpg"
 
 function CarouselSlider() {
   return (
-    <Carousel fade>
+    <Carousel slide >
       <Carousel.Item>
         <img
           className="d-block w-100"

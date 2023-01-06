@@ -26,7 +26,7 @@ const GetStore = (props) => {
                       <div className="card-body">
                           <h3 className="produk card-title ">{props.data.namaBarang}</h3>
                           <p className="card-text">
-                            <small className="harga text-primary">Rp.{props.data.harga}</small>
+                            <small className="harga text-success fw-bold">Rp.{props.data.harga}</small>
                           </p>
                           <p className="deskripsi card-text">{props.data.deskripsi}</p>
                           <button type="butto" className="nomorHP btn-warning btn btn-primary">
