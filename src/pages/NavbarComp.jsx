@@ -22,7 +22,7 @@ class NavbarComp extends Component {
           <Fragment>
             <div>
                 <Navbar collapseOnSelect expand="lg" bg="success" className='shadow fixed-top' variant="dark">
-                <Container>
+                <Container fluid>
                     <Navbar.Brand className='fw-bold' href="#home"><img className='mx-1' src={LOGO} width={40} height={40} alt='logo' />TernakSignature</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

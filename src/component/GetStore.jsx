@@ -15,7 +15,7 @@ const GetStore = (props) => {
           <div className="shadow card mb-4 ">
                 <div className="row g-0">
                   <div className="col-md-4">
-                    <img className="img-fluid rounded-start " src={props.data.urlFoto} alt="gambar produk" />
+                    <img className="img-fluid rounded-start" src={props.data.urlFoto} alt="gambar produk" />
 
                   </div>
                   <div className="col-md-8 ">
@@ -24,12 +24,12 @@ const GetStore = (props) => {
                         <button className="hapus btn" type="button" onClick={()=>props.hapus(props.data._id)} >Hapus <Trash2/></button>
                       </div>
                       <div className="card-body">
-                          <h5 className="produk card-title">{props.data.namaBarang}</h5>
+                          <h3 className="produk card-title ">{props.data.namaBarang}</h3>
                           <p className="card-text">
                             <small className="harga text-primary">Rp.{props.data.harga}</small>
                           </p>
                           <p className="deskripsi card-text">{props.data.deskripsi}</p>
-                          <button type="button" className="nomorHP btn btn-primary">
+                          <button type="butto" className="nomorHP btn-warning btn btn-primary">
                             {props.data.nomorHP} 
                           </button>
                       </div>
