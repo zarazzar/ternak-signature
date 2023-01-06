@@ -8,7 +8,7 @@ const Bebin = props=> {
             <img src={bebinImg} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <p className="card-text text-success fw-bold" >Bebin Paula</p>
-                    <p className="card-text text-secondary">Membuat API menggunakan MongoDb.</p>
+                    <p className="card-text text-secondary">As BackEnd Developer.</p>
                 </div>
             </div>
         )

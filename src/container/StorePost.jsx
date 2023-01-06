@@ -13,7 +13,8 @@ class StorePost extends Component {
         deskripsi:'',
         nomorHP:'',
 
-    }
+    },
+    isUpdate: false
   };
   getDataAPI=()=>
   {
@@ -37,20 +38,30 @@ class StorePost extends Component {
     );
   };
 
+//put
+putDataToApi=()=>{
+    axios.put('https://if3b-zarazzar.vercel.app/store/'+this.state.formStore._id, this.state.formStore)
+    .then((res)=>{
+      console.log(res)
+      this.getDataAPI();
+    })
+}
+
   handleButton = () => {
+    if(this.state.isUpdate){
+      this.putDataToApi();
+    }else{
     this.PostDataAPI();
+    }
   };
-  //PUT
+  
   handleEdit=(data)=>{
     console.log(data)
     this.setState({
-      formStore:data
+      formStore:data,
+      isUpdate: true
     })
-    // axios.put('https://if3b-zarazzar.vercel.app/store/'+data, this.state.formStore)
-    // .then((res)=>{
-    //   console.log(res)
-    //   this.getDataAPI();
-    // })
+    
 
   }
 

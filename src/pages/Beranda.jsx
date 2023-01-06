@@ -6,11 +6,11 @@ export default class Beranda extends Component {
   render() {
     return (
         <div>
-          <br />
-          <br />
+          
           <CarouselSlider/>
-          <h2>tess tess</h2>
-          <p>tes</p>
+          <div className='container'>
+              
+          </div>
         </div>
     )
   }
