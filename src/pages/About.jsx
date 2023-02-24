@@ -4,7 +4,7 @@ import VIDBANNER from './img/kambing.mp4';
 import Azzar from '../component/Azzar';
 import Bebin from '../component/Bebin';
 
-
+//Halaman About
 
 export default class About extends Component {
   render() {
